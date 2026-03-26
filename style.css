@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firs{
+    border: 1px solid #39323E;
+    background-color: #39323E;
+    /* border-top: none; */
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.secc{
+  background-color: #16171D;
+  border: 1px solid #16171D;
+  border-top: none;
+  -webkit-clip-path: polygon(
+    4px 0, calc(100% - 4px) 0, 100% 4px, 100% calc(100% - 4px),
+    calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px
+  );
+  clip-path: polygon(
+    0px 0, calc(100% - 4px) 0, 100% 0px, 100% calc(100% - 4px),
+    calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px
+  );
+}
+
+.secc li a{
+    color: white;
+    font-size: 13px;
+    /* margin-left: 5px; */
+}
+
+.secc li a:hover{
+    color: #9253FF;
+}
+
+
+.seccc{
+  background-color: #16171D;
+  border: 1px solid #16171D;
+  border-top: none;
+  -webkit-clip-path: polygon(
+    4px 0, calc(100% - 4px) 0, 100% 4px, 100% calc(100% - 4px),
+    calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px
+  );
+  clip-path: polygon(
+    4px 0, calc(100% - 4px) 0, 100% 4px, 100% calc(100% - 4px),
+    calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px
+  );
+}
+
+.seccc1{
+  background-color: #16171D;
+  border: 1px solid #16171D;
+  border-top: none;
+  -webkit-clip-path: polygon(
+    4px 0, calc(100% - 4px) 0, 100% 4px, 100% calc(100% - 4px),
+    calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px
+  );
+  clip-path: polygon(
+    4px 0, calc(100% - 4px) 0, 100% 0px, 100% calc(100% - 4px),
+    calc(100% - 0px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px
+  );
+}
+
+.seccc2{
+  background-color: #16171D;
+  border: 1px solid #16171D;
+  border-top: none;
+  -webkit-clip-path: polygon(
+    4px 0, calc(100% - 4px) 0, 100% 4px, 100% calc(100% - 4px),
+    calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px
+  );
+  clip-path: polygon(
+    0px 0, calc(100% - 4px) 0, 100% 4px, 100% calc(100% - 4px),
+    calc(100% - 4px) 100%, 0px 100%, 0 calc(100% - 4px), 0 4px
+  );
+}
+
+.sspp{
+  gap: 3px;
+}
+

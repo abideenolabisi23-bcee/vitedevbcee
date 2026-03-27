@@ -81,7 +81,33 @@
   );
 }
 
-.sspp{
-  gap: 3px;
+.section2{
+  background-color: #39323E;
+  border: none;
+}
+
+.vite-btn{
+  padding: 5px;
+  width: 25%;
+  color: white;
+  text-decoration: none;
+  background-image: url(./media/vite-featurepanel-1-background.BHnDg8j4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.but1{
+  font-size: 10px;
+  border: 1px solid #39323E;
+  color: white;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 5px;
+  width: 25%;
+  text-align: center;
 }
 

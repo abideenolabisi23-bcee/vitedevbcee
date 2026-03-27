@@ -111,3 +111,35 @@
   text-align: center;
 }
 
+.secccgo{
+  background-color: #16171D;
+  border: 1px solid #16171D;
+  border-top: none;
+  -webkit-clip-path: polygon(
+  4px 0, calc(100% - 4px) 0, 100% 4px, 100% calc(100% - 4px),
+  calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px
+  );
+  clip-path: polygon(
+    4px 0, calc(100% - 4px) 0, 100% 4px, 100% calc(100% - 4px),
+    calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px
+  );
+}
+
+/* .secc{
+   width: 100%;
+    flex-direction: row;
+    display: flex;
+    height: 60px;
+}
+
+.ii{
+    /* border-right: 1px solid red; */
+    /* height: 50px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+} */ */
+
+
+
+

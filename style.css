@@ -125,29 +125,96 @@
   );
 }
 
-/* .secc{
-   width: 100%;
-    flex-direction: row;
-    display: flex;
-    height: 60px;
+.back{
+  background-image: url(./media/vite-featurepanel-1-background.BHnDg8j4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  width: 100%;
 }
 
-.ii{
-    /* border-right: 1px solid red; */
-    /* height: 50px;
-    width: 20%;
-    display: flex;
-    justify-content: center;
-} */ */
+.backk{
+  background-image: url(./media/vite-featurepanel-4-background.Bnx0RZk-.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
 
+.pic p{
+  color: white;
+  font-size: 15px;
+  line-height: 20px;
+}
 
-
-.coll{
-    border-right: 1px solid red;
-    height: 50px;
-    width: 20%;
-    display: flex;
-    justify-content: center;
+.inner1{
+  border-radius: 8px; 
+  background-color: #14121A;
 }
 
 
+
+/* IMPORTANT: allow overflow so effect can go outside */
+.main-container {
+  /* position: relative; */
+  /* overflow: visible; */
+}
+
+/* Card base */
+.box-hover {
+  position: relative;
+  /* overflow: visible; allow expansion */
+  background: #1e1e2f;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+/* Background image layer */
+.box-hover::before {
+  content: "";
+  position: absolute;
+  top: -6px;   /* extends outside */
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  overflow: hidden;
+
+  background: url(./media/vite-featurepanel-1-background.BHnDg8j4.jpg) center/cover no-repeat;
+  opacity: 0;
+  /* transform: scale(0.9); */
+  /* transition: all 0.4s ease; */
+  z-index: 0;
+  border-radius: 16px;
+}
+
+/* Hover effect */
+.box-hover:hover::before {
+  opacity: 1;
+  /* transform: scale(1); expands outward */
+}
+
+/* Optional glow */
+.box-hover:hover {
+  transform: translateY(-5px);
+}
+
+/* Keep content above */
+.box-hover .card-body {
+  position: relative;
+  z-index: 2;
+}
+
+/* Optional dark overlay */
+.box-hover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  transition: 0.4s;
+  z-index: 1;
+}
+
+.box-hover:hover::after {
+  opacity: 1;
+}

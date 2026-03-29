@@ -218,3 +218,32 @@
 .box-hover:hover::after {
   opacity: 1;
 }
+
+.but2{
+  font-size: 16px;
+  border: 1px solid #39323E;
+  color: white;
+  background-color: transparent;
+  padding: 8px;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+}
+
+.mudas{
+  background-image: url(./media/footer-background.BIgtbvhx.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.but3{
+  font-size: 16px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+  width: 32%;
+  text-align: center;
+}

@@ -8,125 +8,317 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4459bb593a.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="container" style="background-color: #15161B;;">
     <section class="firs container-fluid w-100">
-        <div class="secc">
+        <div class="secc/" style="background-color: #16171D;">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <img src="./media/vite-light.t8GCa_VF.svg" alt="" height="15px">
+                    <a class="navbar-brand" href="#">
+                        <img src="./media/vite-light.t8GCa_VF.svg" alt="" width="80px">
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav fw-bold mx-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="bees navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Guide</a>
+                                <a class="nav-link" href="https://vite.dev/guide/">Guide</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Config</a>
+                                <a class="nav-link" href="https://vite.dev/config/">Config</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Plugins</a>
+                                <a class="nav-link" href="https://vite.dev/plugins/">Plugins</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Resources
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Resources <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown-menu dropdown-menu-dark ">
+                                    <li><a class="dropdown-item" href="https://vite.dev/team">Team</a></li>
+                                    <li><a class="dropdown-item" href="https://vite.dev/blog">Blog</a></li>
+                                    <li><a class="dropdown-item" href="https://vite.dev/releases">Releases</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://vite.dev/acknowledgements">Acknowledgements</a></li>
+                                    <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                            <div>
+                                                <a class="dropdown-item" href="https://registry.vite.dev/plugins">Plugin Registry</a>  
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div> 
+                                        </div>
+                                        
+                                    </li>
+
+                                    <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="">The Documentary</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div>
+                                    </li>
+                                        
+                                    <hr style="color: #483E49;">
+
+                                    <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://bsky.app/profile/vite.dev">Bluesky</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+
+                                     <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://elk.zone/m.webtoo.ls/@vite">Mastodon</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+
+                                     <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://x.com/vite_js">X</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    
+                                     <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://chat.vite.dev/">Discord chat</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+
+                                     <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://github.com/vitejs/awesome-vite">Awesome Vite</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+                                    
+                                     <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://viteconf.org">ViteCof</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+
+                                    <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://dev.to/t/vite">DEV Community</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
                                 </ul>
                             </li>
-
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    v8.02
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">v8.0.2 <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown-menu dropdown-menu-dark text-white">
+
+                                    <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md">Changelog</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+
+                                   <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://github.com/vitejs/vite/blob/main/CONTRIBUTING.md">Contributing</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+
+                                    <hr>
+
+                                    <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://main.vite.dev">Unreleased Docs</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+
+                                    <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://v7.vite.dev">Vite 7 Docs</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+
+                                    <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://v6.vite.dev">Vite 6 Docs</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+
+                                    <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://v5.vite.dev">Vite 5 Docs</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+
+                                    <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://v4.vite.dev/">Vite 4 Docs</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+
+                                    <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://v3.vite.dev/">Vite 3 Docs</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+
+                                    <li>
+                                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                           <div>
+                                                <a class="dropdown-item" href="https://v2.vite.dev/">Vite 2 Docs</a>
+                                            </div> 
+                                            <div>
+                                                <i class="fa-solid fa-square-arrow-up-right"></i> 
+                                            </div>
+                                        </div> 
+                                    </li>
+
+                                
                                 </ul>
                             </li>
                         </ul>
-                    </div>
 
-
-
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <div class="container-fluid">
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search"
-                                    aria-label="Search" />
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
-                            <!-- <div class="ms-auto d-flex align-items-center gap-3">
-                                <input class="form-control form-control-sm" placeholder="Search (Ctrl + K)">
-                                <span class="text-secondary">v8.0.2</span>
-                            </div> -->
+                        <div class="d-flex align-items-center gap-3 ms-auto">
+                            <div class="search-box d-flex align-items-center px-2">
+                                <i class="fa-solid fa-magnifying-glass"
+                                    style="color:#606060; font-size:12px; margin-right:6px;"></i>
+                                <input type="text" placeholder="Search" />
+                                <span class="shortcut ms-2"
+                                    style="font-size:11px;color:#606060;border:1px solid #1f1f1f;padding:2px 4px;border-radius:4px;font-family:'JetBrains Mono',monospace;">Ctrl K
+                                </span>
+                            </div>
+                            <div class="dropdown">
+                                <a href="#" class="btn btn-sm d-flex align-items-center gap-1"
+                                    style="background: none; border: 1px solid #1f1f1f; color: #9d9d9d; border-radius: 8px; padding: 5px 10px; font-size: 12px; font-weight: 700; "
+                                    data-bs-toggle="dropdown">EN</a>
+                                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">English</a></li>
+                                    <li><a class="dropdown-item" href="https://cn.vite.dev/">简体中文</a></li>
+                                    <li><a class="dropdown-item" href="https://ja.vite.dev/">日本語</a></li>
+                                    <li><a class="dropdown-item" href="https://es.vite.dev/">Español</a></li>
+                                    <li><a class="dropdown-item" href="https://pt.vite.dev/">Português</a></li>
+                                    <li><a class="dropdown-item" href="https://ko.vite.dev/">한국어</a></li>
+                                    <li><a class="dropdown-item" href="https://de.vite.dev/">Deutsch</a></li>
+                                </ul>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <a href=""><i class="fa-brands fa-bluesky" style="color:#98989f;"></i></a>
+                                <a href=""><i class="fa-brands fa-mastodon" style="color:#98989f;"></i></a>
+                                <a href=""><i class="fa-solid fa-x" style="color:#98989f;"></i></a>
+                                <a href=""><i class="fa-brands fa-discord" style="color:#98989f;"></i></a>
+                                <a href=""><i class="fa-brands fa-github" style="color:#98989f;"></i></a>
+                            </div>
                         </div>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <ul class="navbar-nav /border border-black ms-auto form-control-sm fw-bold">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Product</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Review</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </nav>
         </div>
-
+    
 
         <section class="section2">
-            <div class="d-flex /flex-wrap flex-row flex-wrap /mb-3 justify-content-between /border border-black"
+            <div class="beec d-flex /flex-wrap flex-row flex-wrap /mb-3 justify-content-between row-cols-md-2 row-cols-1 "
                 style="display: flex; background-color: #39323E;">
-                <div class="seccc1 d-flex flex-column gap-2 p-4 /align-items-center"
-                    style="width: 50%; border: 1px solidhite;  border-right:none; color: white;">
+                <div class="beec1 seccc1 d-flex flex-column gap-2 p-4 /align-items-center col-lg-6 col-12"
+                    style=" border: 1px solidhite;  border-right:none; color: white;">
                     <div class="w-100">
-                        <p>BY <span>VOID</span></p>
+                        <p>BY <span>VOID(0) </span></p>
                         <h1 style="font-size: 2.5rem; font-family: APK protocol, sans-serif; line-height: 40px;">The
-                            Build Tool for the Web
+                            Build Tool <br> for the Web
                         </h1>
-                        <p style="font-size: 14px;">Vite is a blazing fast frontend build tool powering the next
+                        <p style="font-size: 16px;">Vite is a blazing fast frontend build tool powering the next
                             generation of web applications.</p>
 
                     </div>
 
-                    <div class="d-flex align-items-center gap-2 mt-4">
-                        <a href="#" class="vite-btn" style="text-decoration: none;"><span
-                                style="background-color: #15161B; border-radius: 4px; padding: 2px;">Get
-                                Started</span></a>
+                    <div class="beec2 d-flex align-items-center gap-2 mt-4">
+                        <a href="#" class="vite-btn"><span style="background-color: #15161B; border-radius: 4px; padding: 5px;">Get Started</span></a>
+                        <button type="button" class="btn btn-outline-white" style="color: white;">View on GitHub</button>
                         <a href="#" class="but1" style="text-decoration: none;"><span>View on GitHub</span></a>
                     </div>
-
-
                 </div>
 
-
-
-                <div class="seccc2"
-                    style="width: 50%; display: flex; justify-content: center; border-left: 1px solid #39323E;">
+                <div class="seccc2 col-lg-6 col-12"
+                    style=" display: flex; justify-content: center; bordr-left: 1px solid #39323E;">
                     <img src="./media/vitamin gif big.gif" alt="" height="400px" style="background-color: #15161B;">
                 </div>
             </div>
@@ -137,180 +329,73 @@
                 Trusted by the world's best software teams</div>
         </section>
 
-        <!-- <section class="secccgo">
-            <div class="sec secc d-flex">
-                <div class="secccgo" style="display: flex; justify-content: center; border-right:none;"><img
-                        src="media/clickup.svg" width="40%" alt=""></div>
-                <div class="i ii2"
-                    style="display: flex; justify-content: center; border-left: 1px solid #39323E; border-right:none;">
-                    <img src="media/clickup.svg" width="39%" alt="">
-                </div>
-                <div class="ii 3" style="border: 1px solid white; border-right:none;"><img src="media/clickup.svg"
-                        width="40%" alt=""></div>
-                <div class="ii 4" style="border: 1px solid white; border-right:none;"><img src="media/clickup.svg"
-                        width="40%" alt=""></div>
-                <div class="ii 5" style="border: 1px solid white; border-right:none;"><img src="media/clickup.svg"
-                        width="40%" alt=""></div>
-                <div class="ii 6" style="border: 1px solid white; border-right:none;"><img src="media/clickup.svg"
-                        width="40%" alt=""></div>
-            </div>
-        </section> -->
-
-        <!-- <section class="secccgo">
-            <div class="d-flex /flex-wrap flex-row /flex-wrap /mb-3 justify-content-between /border border-black"
-                style=" background-colr: #39323E;">
-                <div class=" d-flex flex-column gap-2 p-4" style="border: 1px solid white;">
-                    <img src="media/clickup.svg" width="40%" alt="">
-                </div>
-                <div class="ii 2"><img src="media/clickup.svg" width="40%" alt=""></div>
-                <div class="ii 3"><img src="media/clickup.svg" width="40%" alt=""></div>
-                <div class="ii 4"><img src="media/clickup.svg" width="40%" alt=""></div>
-                <div class="ii 5"><img src="media/clickup.svg" width="40%" alt=""></div>
-                <div class="ii 6"><img src="media/clickup.svg" width="40%" alt=""></div>
-            </div>
-        </section> -->
-
-
-        <!-- <div class="container text-center bg-black">
-            <div class="row" style="border-collapse: separate;">
-                <div class="col">
-                    Column
-                </div>
-                <div class="col">
-                    Column
-                </div>
-                <div class="col">
-                    Column
-                </div>
-            </div>
-        </div> -->
-
-        <div class="container text-center">
+        <div class="bide container text-center">
             <div class="secccgo row text-white justify-content-center">
                 <div class="col"
                     style="border-right: 1px solid #39323E; height: 55px; display: flex; justify-content: center;">
-                    <img src="./media/openai.svg" width="45%" alt="">
+                    <img src="./media/openai.svg" width="45%" alt="" class="gray">
                 </div>
                 <div class="col"
                     style="border-right: 1px solid #39323E; height: 55px; display: flex; justify-content: center; ">
-                    <img src="./media/shopify.svg" width="45%" alt="">
+                    <img src="./media/shopify.svg" width="45%" alt="" class="gray">
                 </div>
                 <div class="col"
                     style="border-right: 1px solid #39323E; height: 55px; display: flex; justify-content: center;">
-                    <img src="./media/stripe.svg" width="45%" alt="">
+                    <img src="./media/stripe.svg" width="45%" alt="" class="gray">
                 </div>
                 <div class="col"
                     style="border-right: 1px solid #39323E; height: 55px; display: flex; justify-content: center;"><img
-                        src="./media/linear.svg" width="45%" alt=""></div>
+                        src="./media/linear.svg" width="45%" alt="" class="gray">
+                </div>
                 <div class="col"
                     style="border-right: 1px solid #39323E; height: 55px; display: flex; justify-content: center;"><img
-                        src="./media/clickup.svg" width="45%" alt=""></div>
+                        src="./media/clickup.svg" width="45%" alt="" class="gray">
+                    </div>
                 <div class="col" style="height: 55px; display: flex; justify-content: center;"><img
-                        src="./media/wiz.svg" width="40%" alt=""></div>
+                        src="./media/wiz.svg" width="40%" alt="" class="gray">
+                    </div>
             </div>
         </div>
 
-        <!-- <section class="section2">
-            <div class="d-flex /flex-wrap flex-row flex-wrap /mb-3 justify-content-between /border border-black"
-                style="display: flex; background-color: #39323E;">
-                <div class="seccc1 d-flex flex-row /gap-2 p-4 /align-items-center"
-                    style="width: 17%; border: 1px solidhite;  border-right:none; color: white;">
-                    <img src="media/clickup.svg" width="40%" alt="">
-                </div>
-
-                <div class="seccc1 d-flex flex-row /gap-2 p-4 /align-items-center"
-                    style="width: 17%; border: 1px solidhite;  border-right:none; color: white;">
-                    <img src="media/clickup.svg" width="40%" alt="">
-                </div>
-
-                <div class="seccc1 d-flex flex-column gap-2 p-4 /align-items-center"
-                    style="width: 17%; border: 1px solidhite;  border-right:none; color: white;">
-                    <img src="media/clickup.svg" width="40%" alt="">
-                </div>
-
-                <div class="seccc1 d-flex flex-column gap-2 p-4 /align-items-center"
-                    style="width: 17%; border: 1px solidhite;  border-right:none; color: white;">
-                    <img src="media/clickup.svg" width="40%" alt="">
-                </div>
-
-                <div class="seccc1 d-flex flex-column gap-2 p-4 /align-items-center"
-                    style="width: 17%; border: 1px solidhite;  border-right:none; color: white;">
-                    <img src="media/clickup.svg" width="40%" alt="">
-                </div>
-
-                <div class="seccc1"
-                    style="width: 17%; display: flex; justify-content: center; border-left: 1px solid #39323E;">
-                    <img src="media/clickup.svg" width="40%" alt="">
-                </div>
-            </div> -->
-
-
-
-
-
-
-
-        <!-- <section class="trusted text-center py-5">
-                <div class="container">
-                    <p class="mb-4">Trusted by the world's best software teams</p>
-
-                    <div class="row">
-                        <div class="col">openai</div>
-                        <div class="col">shopify</div>
-                        <div class="col">stripe</div>
-                        <div class="col">linear</div>
-                        <div class="col">clickup</div>
-                        <div class="col">wiz</div>
-                    </div>
-                </div>
-            </section> -->
-
-        <!-- 
-        </section> -->
-
-
-
         <section class="secccgo">
-            <div class="d-flex flex-column justify-content-center text-center text-white p-5 gap-3 my-3">
-                <h2 style="line-height: 30px; font-family: APK protocol, sans-serif; width: 40%; margin: auto;">
-                    <b>Redefining developer experience</b>
+            <div class="d-flex flex-column justify-content-c/enter text-center text-white p-5 gap-3 my-5 m-auto col-lg-6 col-12">
+                <h2 style="line-height: 30px; font-family: APK protocol, sans-serif; margin: aut/o;">
+                    <b>Redefining developer  <br> experience</b>
                 </h2>
-                <p style="font-size: 15px;">Vite makes web development enjoyable again</p>
+                <p style="font-size: 15px; margin: auto;">Vite makes web development enjoyable again</p>
             </div>
         </section>
 
 
         <div class="container">
-            <div class="secccgo row row-cols-2 text-white ">
-                <div class="col p-0" style="border-right: 1px solid #39323E; display: flex; flex-direction: column;">
-                    <div class="p-5 w-75" style="text-align: start;">
+            <div class="secccgo row row-cols-2 text-white row-cols-1">
+                <div class="col p-0 col-lg-6 col-12" style="border-right: 1px solid #39323E; display: flex; flex-direction: column;">
+                    <div class="p-5 w-100" style="text-align: start;">
                         <h3>Instant Server Start</h3>
                         <p style="color: #483E49; font-size: 1rem;">On demand source file serving over native ESM, with
                             blazing fast dependency pre-bundling.</p>
                     </div>
 
                     <div class="back p-5 mt-4 d-flex justify-content-center">
-                        <img src="./media/vite-featurepanel-1-terminal.CQVUoUSU.svg" width="72%" alt="">
+                        <img src="./media/vite-featurepanel-1-terminal.CQVUoUSU.svg" width="75%" alt="">
                     </div>
                 </div>
 
-
-
-                <div class="col p-0" style="display: flex; flex-direction: column;">
-                    <div class="p-5 w-75" style="text-align: start;">
+                <div class="col p-0 col-lg-6 col-12" style="display: flex; flex-direction: column;">
+                    <div class="p-5" style="text-align: start;">
                         <h3>Lightning Fast HMR</h3>
                         <p style="color: #483E49; font-size: 1rem;">Instantly reflect changes as you save, no matter how
                             big your app is.</p>
                     </div>
 
                     <div class="d-flex justify-content-end">
-                        <img src="./media/vite-featurepanel-2-terminal.ChpAU6sR.png" width="72%" alt="">
+                        <img src="./media/vite-featurepanel-2-terminal.ChpAU6sR.png" width="80%" alt="">
                     </div>
                 </div>
 
-                <div class="col p-0"
+                <div class="col p-0 col-lg-6 col-12"
                     style="border-right: 1px solid #39323E; border-top: 1px solid #39323E; display: flex; flex-direction: column;">
-                    <div class="p-5 w-75" style="text-align: start;">
+                    <div class="p-5" style="text-align: start;">
                         <h3>Rich Features Out of the Box</h3>
                         <p style="color: #483E49; font-size: 1rem;">TypeScript, JSX, CSS, Workers, WebAssembly... and
                             more just a plugin away.</p>
@@ -321,8 +406,8 @@
                     </div>
                 </div>
 
-                <div class="col p-0" style=" border-top: 1px solid #39323E; display: flex; flex-direction: column;">
-                    <div class="p-5 w-75" style="text-align: start;">
+                <div class="col p-0 col-lg-6 col-12" style=" border-top: 1px solid #39323E; display: flex; flex-direction: column;">
+                    <div class="p-5" style="text-align: start;">
                         <h3>Optimized Build</h3>
                         <p style="color: #483E49; font-size: 1rem;">Advanced tree-shaking, built-in minification,
                             fine-grained chunking control powered by Rolldown.</p>
@@ -336,18 +421,18 @@
         </div>
 
         <section class="secccgo">
-            <div class="d-flex flex-column justify-content-center text-center text-white p-5 gap-1 my-5">
+            <div class="d-flex flex-column justify-content-center text-center text-white p-5 gap-1 my-5 col-12">
                 <h2
-                    style="line-height: 30px; font-family: APK protocol, sans-serif; width: 35%; margin: auto; line-height: 37px; font-size: 2.5rem;">
-                    <b>A shared foundation to build upon</b>
+                    style="line-height: 30px; font-family: APK protocol, sans-serif; margin: auto; line-height: 37px; font-size: 2rem;">
+                    <b>A shared foundation <br> to build upon</b>
                 </h2>
             </div>
         </section>
 
         <div class="container">
-            <div class="secccgo row row-cols-2 text-white ">
-                <div class="col p-0" style="border-right: 1px solid #39323E; display: flex; flex-direction: column;">
-                    <div class="p-5 w-75" style="text-align: start;">
+            <div class="secccgo row row-cols-2 text-white row-cols-1">
+                <div class="col p-0 col-lg-6 col-12" style="border-right: 1px solid #39323E; display: flex; flex-direction: column;">
+                    <div class="p-5" style="text-align: start;">
                         <h3>Flexible Plugin System</h3>
                         <p style="color: #483E49; font-size: 1rem;">Vite plugins extends Rollup's well-designed plugin
                             interface with a few extra Vite-specific options.</p>
@@ -358,10 +443,8 @@
                     </div>
                 </div>
 
-
-
-                <div class="col p-0" style="display: flex; flex-direction: column;">
-                    <div class="p-5 w-75" style="text-align: start;">
+                <div class="col p-0 col-lg-6 col-12" style="display: flex; flex-direction: column;">
+                    <div class="p-5" style="text-align: start;">
                         <h3>Fully Typed API</h3>
                         <p style="color: #483E49; font-size: 1rem;">Designed to be built on top of.</p>
                     </div>
@@ -371,9 +454,9 @@
                     </div>
                 </div>
 
-                <div class="col p-0"
+                <div class="col p-0 col-lg-6 col-12"
                     style="border-right: 1px solid #39323E; border-top: 1px solid #39323E; display: flex; flex-direction: column;">
-                    <div class="p-5 w-75" style="text-align: start;">
+                    <div class="p-5" style="text-align: start;">
                         <h3>First class SSR Support</h3>
                         <p style="color: #483E49; font-size: 1rem;">It's never been easier to setup custom SSR
                             (Server-Side Rendering), or build your own SSR framework.</p>
@@ -384,8 +467,8 @@
                     </div>
                 </div>
 
-                <div class="col p-0" style=" border-top: 1px solid #39323E; display: flex; flex-direction: column;">
-                    <div class="p-5 w-75" style="text-align: start;">
+                <div class="col p-0 col-lg-6 col-12" style=" border-top: 1px solid #39323E; display: flex; flex-direction: column;">
+                    <div class="p-5" style="text-align: start;">
                         <h3>Continuous ecosystem integration</h3>
                         <p style="color: #483E49; font-size: 1rem;">Our CI continuously tests Vite changes against
                             downstream projects, allowing us to improve Vite with stability and confidence.</p>
@@ -400,209 +483,241 @@
 
 
         <section class="secccgo">
-            <div class="d-flex flex-column justify-content-center text-center text-white p-5 gap-1 my-5">
+            <div class="d-flex flex-column justify-content-center  text-center text-white p-3 gap-1 my-5 col-lg-12">
                 <h2
-                    style="line-height: 30px; font-family: APK protocol, sans-serif; width: 40%; margin: auto; line-height: 37px; font-size: 2.5rem;">
-                    <b>Powering your favorite frameworks and tools</b>
+                    style="line-height: 30px; font-family: APK protocol, sans-serif; margin: auto; line-height: 37px; font-size: 1.7rem;">
+                    <b>Powering your favorite  <br>frameworks and tools</b>
                 </h2>
             </div>
         </section>
 
         <section class="secccgo">
-            <div class="d-flex flex-column justify-content-center text-center text-white p-3 gap-1 my-5">
+            <div class="d-flex flex-column justify-content-center text-center text-white p-3 gap-1 my-5 ">
                 <img src="./media/vite-frameworks.D3X8o4O8.png" alt="">
             </div>
         </section>
 
         <section class="secccgo">
-            <div class="d-flex flex-row justify-content-md-between /text-center text-white p-5 gap-1 my-5 w-100">
-                <div style="width: 35%;">
+            <div class="d-flex flex-row justify-content-md-between/  /text-center text-white p-4 py-5 container row row-cols-1 row-cols-md-2">
+                <div class="col ps-lg-5 p-0 ">
                     <h2
-                        style="line-height: 30px; font-family: APK protocol, sans-serif;  line-height: 37px; font-size: 2rem;">
+                        style="line-height: 30px; font-family: APK protocol, sans-serif;  line-height: 37px; font-size: 1.6rem;">
                         <b>Loved by the community</b>
                     </h2>
-                    <p class="text-secondary">Don't take our word for it - listen to what Vite community members have to
+                    <p class="text-secondary">Don't take our word for it - listen to what  <br>Vite community members have to
                         say.</p>
                 </div>
 
-                <div style="display: flex; flex-direction: row; gap: 40px;">
-                    <div>
+                <div class="col justify-content-end  align-items-center" style="display: flex; flex-direction: row; 
+                ">
+                    <div class="pe-lg-5 pe-2">
                         <h1 style="font-size: 3rem;">75k+</h1>
                         <p class="text-secondary">Github stars</p>
                     </div>
 
-                    <div>
+                    <div class="pe-5/">
                         <h1 style="font-size: 3rem;">40m+</h1>
                         <p class="text-secondary">Weekly NPM downloads</p>
                     </div>
                 </div>
             </div>
 
-            <div class="container w-100 d-flex flex-row p-3 justify-content-center gap-3">
-                <div class="com 1 d-flex flex-column /border /border-danger gap-4" style="width: 30%;">
-                    <div class="card custom-card box-hover inner1 border border-secondary border-opacity-25 p-4"
-                        style="border-radius: 8px; background-color: #14121A;">
-                        <div class="card-body">
-                            <p>I'm loving what Vite enables. We've found building SolidStart that it is less a
-                                metaframework but a system of symbiotic Vite plugins. While built with SolidJS in mind,
-                                they should scale from our simplest template to opinionated starter. We're building an
-                                ecosystem on Vite.</p>
-                            <div class="d-flex flex-row mt-4">
-                                <img src="./media/8Piov0f6_400x400.jpg" width="13%" alt="" style="height: 44px;">
-                                <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
-                                    style="line-height: 17px; font-size: 13px;">Ryan Carniato <span
-                                        style="color: white;">@RyanCarniato</span>
+            <section class="container d-flex p-3 justify-content-center row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class=" " >
+                    
+                    <div class="hove mb-4">
+                        <div style="border: 1px solid #39323E; border-radius: 8px; background-color: #14121A;"
+                            class="col-12 m-0 p-4">
+                            <div class="pic pic1">
+                                <p>I'm loving what Vite enables. We've found building SolidStart that it is less a
+                                    metaframework but a system of symbiotic Vite plugins. While built with SolidJS in
+                                    mind,
+                                    they should scale from our simplest template to opinionated starter. We're building
+                                    an
+                                    ecosystem on Vite.</p>
+                                <div class="d-flex flex-row mt-4">
+                                    <img src="./media/8Piov0f6_400x400.jpg" width="13%" alt="" style="height: 44px;">
+                                    <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
+                                        style="line-height: 17px; font-size: 13px;">Ryan Carniato <span
+                                            style="color: white;">@RyanCarniato</span>
 
-                                </div>
+                                    </div>
 
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="inner1 border border-secondary border-opacity-25 p-4"
-                        style="border-radius: 8px; background-color: #14121A;">
-                        <div class="pic pic1">
-                            <p>Vite is basically the united nations of JavaScript at this point. I'll be there as a
-                                representative of Sveltelandia
-                            </p>
-
-                            <div class="d-flex flex-row mt-4">
-                                <img src="./media/bFyXy8Pu_400x400.jpeg" width="13%" alt="" style="height: 44px;">
-                                <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
-                                    style="line-height: 17px; font-size: 13px;">Rich Harris <span
-                                        style="color: white;">@Rich Harris</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="inner1 border border-secondary border-opacity-25 p-4"
-                        style="border-radius: 8px; background-color: #14121A;">
-                        <div class="pic pic1">
-                            <p>Each and every time I use Vite, I feel a true sense of pure and unbridled joy.</p>
-                        </div>
+                    <div class="hove mb-4">
+                        <div style="border: 1px solid #39323E; border-radius: 8px; background-color: #14121A;"
+                            class="col-12 m-0 p-4">
+                            <div class="pic pic1">
+                                <p>Vite is basically the united nations of JavaScript at this point. I'll be there as a
+                                    representative of Sveltelandia
+                                </p>
 
-                        <div class="d-flex flex-row mt-4">
-                            <img src="./media/HVkULegC_400x400.jpg" width="13%" alt="" style="height: 44px;">
-                            <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
-                                style="line-height: 17px; font-size: 13px;">Ryan Carniato <span
-                                    style="color: white;">@RyanCarniato</span>
+                                <div class="d-flex flex-row mt-4">
+                                    <img src="./media/bFyXy8Pu_400x400.jpeg" width="13%" alt="" style="height: 44px;">
+                                    <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
+                                        style="line-height: 17px; font-size: 13px;">Rich Harris <span
+                                            style="color: white;">@Rich Harris</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hove d-lg-block d-md-none d-block mb-4">
+                        <div style="border: 1px solid #39323E; border-radius: 8px; background-color: #14121A;"
+                            class="col-12 m-0 p-4">
+                            <div class="pic pic1">
+                                <p>Each and every time I use Vite, I feel a true sense of pure and unbridled joy.</p>
+
+                                <div class="d-flex flex-row mt-4">
+                                    <img src="./media/HVkULegC_400x400.jpg" width="13%" alt="" style="height: 44px;">
+                                    <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
+                                        style="line-height: 17px; font-size: 13px;">Ryan Carniato <span
+                                            style="color: white;">@RyanCarniato</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col ">
+                    <div class="hove d-none d-md-block mb-4">
+                        <div style="border: 1px solid #39323E; border-radius: 8px; background-color: #14121A;"
+                            class="col-12 m-0 p-4">
+                            <div class="pic pic1">
+                                <p>It's also a great platform to build a framework on since it provides a pluggable dev
+                                    environment.</p>
+                                <p>Community is amazing too.</p>
+                                <div class="d-flex flex-row mt-4">
+                                    <img src="./media/Sc9ehtAr_400x400.jpg" width="13%" alt="" style="height: 44px;">
+                                    <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
+                                        style="line-height: 17px; font-size: 13px;">Mark Dalgleish<span
+                                            style="color: white;">@Mark Dalgleish</span>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="hove d-none d-md-block mb-4">
+                        <div style="border: 1px solid #39323E; border-radius: 8px; background-color: #14121A;"
+                            class="col-12 m-0 p-4">
+                            <div class="pic pic1">
+                                <p>Every time I suspect I've hit the bounds of what Vite can do, I end up being wrong.
+                                </p>
+                                <div class="d-flex flex-row mt-4">
+                                    <img src="./media/8Piov0f6_400x400.jpg" width="13%" alt="" style="height: 44px;">
+                                    <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
+                                        style="line-height: 17px; font-size: 13px;">Jason Milleris <span
+                                            style="color: white;">@developit</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="hove d-block d-md-none d-lg-block mb-4">
+                        <div style="border: 1px solid #39323E; border-radius: 8px; background-color: #14121A;"
+                            class="col-12 m-0 p-4">
+                            <div class="pic pic1">
+                                <p>Each and every time I use Vite, I feel a true sense of pure and unbridled joy.</p>
+
+                                <div class="d-flex flex-row mt-4">
+                                    <img src="./media/8Piov0f6_400x400.jpg" width="13%" alt="" style="height: 44px;">
+                                    <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
+                                        style="line-height: 17px; font-size: 13px;">David cramer <span
+                                            style="color: white;">@Zaag</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="com 1 d-flex flex-column /border /border-danger gap-4" style="width: 30%;">
-                    <div class="inner1 border border-secondary border-opacity-25 p-4"
-                        style="border-radius: 8px; background-color: #14121A;">
-                        <div class="pic pic1">
-                            <p>It's also a great platform to build a framework on since it provides a pluggable dev
-                                environment.</p>
-                            <p>Community is amazing too.</p>
-                            <div class="d-flex flex-row mt-4">
-                                <img src="./media/Sc9ehtAr_400x400.jpg" width="13%" alt="" style="height: 44px;">
-                                <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
-                                    style="line-height: 17px; font-size: 13px;">Mark Dalgleish<span
-                                        style="color: white;">@Mark Dalgleish</span>
+                <div class="col">
 
-                                </div>
+                    <div class="hove d-none d-lg-block mb-4">
+                        <div style="border: 1px solid #39323E; border-radius: 8px; background-color: #14121A;"
+                            class="col-12 m-0 p-4">
+                            <div class="pic pic1">
+                                <p>I am so excited to see so many great frameworks teaming up on top of vite. So many
+                                    will
+                                    benefit. ❤️ to the vite team.</p>
+                                <div class="d-flex flex-row mt-4">
+                                    <img src="./media/f73b3687ff39b795db05fcaf35972270_400x400.jpeg" width="13%" alt=""
+                                        style="height: 44px;">
+                                    <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
+                                        style="line-height: 17px; font-size: 13px;">Mark Dalgleish<span
+                                            style="color: white;">@Mark Dalgleish</span>
 
-                            </div>
-                        </div>
-                    </div>
+                                    </div>
 
-                    <div class="inner1 border border-secondary border-opacity-25 p-4"
-                        style="border-radius: 8px; background-color: #14121A;">
-                        <div class="pic pic1">
-                            <p>Every time I suspect I've hit the bounds of what Vite can do, I end up being wrong.
-                            </p>
-
-                            <div class="d-flex flex-row mt-4">
-                                <img src="./media/8Piov0f6_400x400.jpg" width="13%" alt="" style="height: 44px;">
-                                <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
-                                    style="line-height: 17px; font-size: 13px;">Jason Milleris <span
-                                        style="color: white;">@developit</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="inner1 border border-secondary border-opacity-25 p-4"
-                        style="border-radius: 8px; background-color: #14121A;">
-                        <div class="pic pic1">
-                            <p>Vite has been a game changer for the industry.</p>
-                        </div>
 
-                        <div class="d-flex flex-row mt-4">
-                            <img src="./media/8Piov0f6_400x400.jpg" width="13%" alt="" style="height: 44px;">
-                            <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
-                                style="line-height: 17px; font-size: 13px;">David cramer <span
-                                    style="color: white;">@Zaag</span>
+
+                    <div class="hove d-none d-lg-block mb-4">
+                        <div style="border: 1px solid #39323E; border-radius: 8px; background-color: #14121A;"
+                            class="col-12 m-0 p-4">
+                            <div class="pic pic1">
+                                <p>Vite is gonna eat the (JavaScript) world.
+                                </p>
+
+                                <div class="d-flex flex-row mt-4">
+                                    <img src="./media/gXgT-jxL_400x400.jpg" width="13%" alt="" style="height: 44px;">
+                                    <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
+                                        style="line-height: 17px; font-size: 13px;">Jason Milleris <span
+                                            style="color: white;">@developit</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="hove d-none d-lg-block mb-4">
+                        <div style="border: 1px solid #39323E; border-radius: 8px; background-color: #14121A;"
+                            class="col-12 m-0 p-4">
+                            <div class="pic pic1">
+                                <p>Wow, wow, wow, wow, wow, wow, Vite is..... Vite is.... Wow 🤤🤯🙏</p>
+
+                                <div class="d-flex flex-row mt-4">
+                                    <img src="./media/13629190.jpg" width="13%" alt="" style="height: 44px;">
+                                    <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
+                                        style="line-height: 17px; font-size: 13px;">David cramer <span
+                                            style="color: white;">@Zaag</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
 
-
-                <div class="com 1 d-flex flex-column /border /border-danger gap-4" style="width: 30%;">
-                    <div class="inner1 border border-secondary border-opacity-25 p-4"
-                        style="border-radius: 8px; background-color: #14121A;">
-                        <div class="pic pic1">
-                            <p>I am so excited to see so many great frameworks teaming up on top of vite. So many will
-                                benefit. ❤️ to the vite team.</p>
-                            <div class="d-flex flex-row mt-4">
-                                <img src="./media/f73b3687ff39b795db05fcaf35972270_400x400.jpeg" width="13%" alt=""
-                                    style="height: 44px;">
-                                <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
-                                    style="line-height: 17px; font-size: 13px;">Mark Dalgleish<span
-                                        style="color: white;">@Mark Dalgleish</span>
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="inner1 border border-secondary border-opacity-25 p-4"
-                        style="border-radius: 8px; background-color: #14121A;">
-                        <div class="pic pic1">
-                            <p>Vite is gonna eat the (JavaScript) world.
-                            </p>
-
-                            <div class="d-flex flex-row mt-4">
-                                <img src="./media/gXgT-jxL_400x400.jpg" width="13%" alt="" style="height: 44px;">
-                                <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
-                                    style="line-height: 17px; font-size: 13px;">Jason Milleris <span
-                                        style="color: white;">@developit</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="inner1 border border-secondary border-opacity-25 p-4"
-                        style="border-radius: 8px; background-color: #14121A;">
-                        <div class="pic pic1">
-                            <p>Wow, wow, wow, wow, wow, wow, Vite is..... Vite is.... Wow 🤤🤯🙏</p>
-                        </div>
-
-                        <div class="d-flex flex-row mt-4">
-                            <img src="./media/13629190.jpg" width="13%" alt="" style="height: 44px;">
-                            <div class="d-flex flex-column font-monospace text-secondary mx-3 fw-bolder"
-                                style="line-height: 17px; font-size: 13px;">David cramer <span
-                                    style="color: white;">@Zaag</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="border/ border-secondary position-relative" style="box-shadow: 2px 5px 2000px 250px #16171D;">
 
             </div>
         </section>
 
 
         <section class="secccgo">
-            <div class="d-flex flex-row justify-content-md-between /text-center text-white p-5 gap-1 my-5 w-100">
-                <div style="width: 35%;">
+            <div class="d-flex flex-row flex-nowrap /justify-content-md-between /text-center text-white /p-5 /gap-1 my-5 /w-100 border border-danger row-cols-md-2 row-cols-1" style="margin: auto; width: 90%; gap: 20%;">
+                <div class="col-12" style="width: 45%; border: 1px solid white;">
                     <h2
                         style="line-height: 30px; font-family: APK protocol, sans-serif;  line-height: 37px; font-size: 2rem;">
                         <b>Free & open source</b>
@@ -616,7 +731,7 @@
 
                 </div>
 
-                <div style="width: 45%;">
+                <div class="col-12" style="width: 45%; border: 1px solid white;">
                     <div>
                         <img src="media/vite-by-voidzero.D7bblMgo.png" width="70%" alt="">
                     </div>
@@ -632,15 +747,28 @@
         </section>
 
 
+        <section class="section2 ">
+            <div class="secccgo d-flex /flex-wrap flex-row flex-wrap /mb-3 justify-content-between row-cols-md-2 row-cols-1 ">
+                <div class="d-flex justify-content-center gap-2 p-5 /align-items-center col-lg-6 col-12">
+                    <img src="./media/download (5).svg" width="30%" alt="" class="gray">
+                </div>
+
+                <div class="col-lg-6 col-12 p-5 d-flex justify-content-center"
+                    style=" display: flex; justify-content: center; border-left: 1px solid #39323E;">
+                    <img src="./media/download (6).svg" width="40%" alt="" class="gray">
+                </div>
+            </div>
+        </section>
+        
         <div class="container">
-            <div class="secccgo row row-cols-2 text-white ">
-                <div class="col p-5 d-flex justify-content-center" style="border-right: 1px solid #39323E;">
-                    <img src="./media/download (5).svg" width="30%" alt="">
+            <div class="secccgo row row-cols-2 text-white row-cols-md-2 row-cols-1">
+                <div class="col p-5 d-flex justify-content-center col-lg-6 col-12" style="boder-right: 1px solid #39323E;">
+                    <img src="./media/download (5).svg" width="30%" alt="" class="gray">
                 </div>
 
 
-                <div class="col p-5 d-flex justify-content-center my-5 text-white">
-                    <img src="./media/download (6).svg" width="40%" alt="">
+                <div class="col p-5 d-flex justify-content-center my-5 text-white col-lg-6 col-12" style="border-top: 1px solid #39323E;">
+                    <img src="./media/download (6).svg" width="40%" alt="" class="gray">
                 </div>
             </div>
         </div>
@@ -652,44 +780,44 @@
             </div>
         </section>
 
-        <div class="container">
-            <div class="secccgo row row-cols-3 text-white ">
-                <div class="col p-5" style="border-right: 1px solid #39323E; display: flex; flex-direction: column;">
+        <div class="container p-0">
+            <div class=" container m-0 p-0 secccgo row row-cols-1 row-cols-md-2 row-cols-lg-3 text-white">
+                <div class="col p-5 " style="border: 1px solid #39323E; display: flex; flex-direction: column;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/storyblok.png" width="60%" alt="">
+                        <img src="./media/storyblok.png" width="60%" alt="" class="gray">
                     </div>
                 </div>
 
-                <div class="col p-5" style="display: flex; flex-direction: column; border-right: 1px solid #39323E;">
+                <div class="col p-5" style="display: flex; flex-direction: column; border: 1px solid #39323E;">
                     <div class=" p-3 d-flex justify-content-center">
-                        <img src="./media/coderabbit_.png" width="60%" alt="">
+                        <img src="./media/coderabbit_.png" width="60%" alt="" class="gray">
                     </div>
                 </div>
 
-                <div class="col p-5" style="display: flex; flex-direction: column;">
+                <div class="col p-5" style="display: flex; flex-direction: column; border: 1px solid #39323E;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/greptile.png" width="60%" alt="">
+                        <img src="./media/greptile.png" width="60%" alt="" class="gray">
                     </div>
                 </div>
 
 
                 <div class="col p-5"
-                    style="border-right: 1px solid #39323E; border-top: 1px solid #39323E; display: flex; flex-direction: column;">
+                    style=" border: 1px solid #39323E; display: flex; flex-direction: column;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/railway.svg" width="60%" alt="">
+                        <img src="./media/railway.svg" width="60%" alt="" class="gray">
                     </div>
                 </div>
 
                 <div class="col p-5"
-                    style="border-top: 1px solid #39323E; border-right: 1px solid #39323E; display: flex; flex-direction: column;">
+                    style=" border: 1px solid #39323E; display: flex; flex-direction: column;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/tonkotsu.png" width="60%" alt="">
+                        <img src="./media/tonkotsu.png" width="60%" alt="" class="gray">
                     </div>
                 </div>
 
-                <div class="col p-5" style="display: flex; flex-direction: column; border-top: 1px solid #39323E;">
+                <div class="col p-5" style="display: flex; flex-direction: column; border: 1px solid #39323E;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./m" width="60%" alt="">
+                        <img src="./m" width="60%" alt="" class="gray">
                     </div>
                 </div>
             </div>
@@ -707,31 +835,31 @@
             <div class="secccgo row row-cols-5 text-white ">
                 <div class="col p-2" style="border-right: 1px solid #39323E; display: flex; flex-direction: column;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/mux.svg" width="50%" alt="">
+                        <img src="./media/mux.svg" width="50%" alt="" class="gray">
                     </div>
                 </div>
 
                 <div class="col p-2" style="display: flex; flex-direction: column; border-right: 1px solid #39323E;">
                     <div class=" p-3 d-flex justify-content-center">
-                        <img src="./media/coderabbit_.png" width="50%" alt="">
+                        <img src="./media/coderabbit_.png" width="50%" alt="" class="gray">
                     </div>
                 </div>
 
                 <div class="col p-2" style="display: flex; flex-direction: column; border-right: 1px solid #39323E;">
                     <div class=" p-3 d-flex justify-content-center">
-                        <img src="./media/transloadit.png" width="50%" alt="">
+                        <img src="./media/transloadit.png" width="50%" alt="" class="gray">
                     </div>
                 </div>
 
                 <div class="col p-2" style="display: flex; flex-direction: column; border-right: 1px solid #39323E;">
                     <div class=" p-3 d-flex justify-content-center">
-                        <img src="./media/handsontable.svg" width="50%" alt="">
+                        <img src="./media/handsontable.svg" width="50%" alt="" class="gray">
                     </div>
                 </div>
 
                 <div class="col p-2" style="display: flex; flex-direction: column;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/mojam.svg" width="50%" alt="">
+                        <img src="./media/mojam.svg" width="50%" alt="" class="gray">
                     </div>
                 </div>
 
@@ -739,34 +867,34 @@
                 <div class="col p-2"
                     style="border-right: 1px solid #39323E; border-top: 1px solid #39323E; display: flex; flex-direction: column;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/convex.svg" width="50%" alt="">
+                        <img src="./media/convex.svg" width="50%" alt="" class="gray">
                     </div>
                 </div>
 
                 <div class="col p-2"
                     style="border-top: 1px solid #39323E; border-right: 1px solid #39323E; display: flex; flex-direction: column;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/tonkotsu.png" width="50%" alt="">
+                        <img src="./media/tonkotsu.png" width="50%" alt="" class="gray">
                     </div>
                 </div>
 
                 <div class="col p-2"
                     style="border-top: 1px solid #39323E; border-right: 1px solid #39323E; display: flex; flex-direction: column;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/catalyst.svg" width="50%" alt="">
+                        <img src="./media/catalyst.svg" width="50%" alt="" class="gray">
                     </div>
                 </div>
 
                 <div class="col p-2"
                     style="border-top: 1px solid #39323E; border-right: 1px solid #39323E; display: flex; flex-direction: column;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/zephyr_cloud.png" width="50%" alt="">
+                        <img src="./media/zephyr_cloud.png" width="50%" alt="" class="gray">
                     </div>
                 </div>
 
                 <div class="col p-2" style="display: flex; flex-direction: column; border-top: 1px solid #39323E;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/sanity.svg" width="50%" alt="">
+                        <img src="./media/sanity.svg" width="50%" alt="" class="gray">
                     </div>
                 </div>
 
@@ -774,7 +902,7 @@
                 <div class="col p-2"
                     style="border-right: 1px solid #39323E; border-top: 1px solid #39323E; display: flex; flex-direction: column;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/follower24.svg" width="50%" alt="">
+                        <img src="./media/follower24.svg" width="50%" alt="" class="gray">
                     </div>
                 </div>
 
@@ -788,20 +916,20 @@
                 <div class="col p-2"
                     style="border-top: 1px solid #39323E; border-right: 1px solid #39323E; display: flex; flex-direction: column;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/catasvg" width="50%" alt="">
+                        <img src="./media/catasvg" width="50%" alt="" class="gray">
                     </div>
                 </div>
 
                 <div class="col p-2"
                     style="border-top: 1px solid #39323E; border-right: 1px solid #39323E; display: flex; flex-direction: column;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/zepg" width="50%" alt="">
+                        <img src="./media/zepg" width="50%" alt="" class="gray">
                     </div>
                 </div>
 
                 <div class="col p-2" style="display: flex; flex-direction: column; border-top: 1px solid #39323E;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./media/sag" width="50%" alt="">
+                        <img src="./media/sag" width="50%" alt="" class="gray">
                     </div>
                 </div>
             </div>
@@ -809,14 +937,15 @@
 
 
         <section class="secccgo">
-            <div class="d-flex flex-column my-5 mt-5">
-                <div class="mudas d-flex flex-column justify-content-center text-center text-white p-5 gap-1 my-5">
+            <div class="d-flex flex-column my-5 mt-5 ">
+                <div class="mudas d-flex flex-column justify-content-center text-center text-white py-5 gap-1 my-5">
                     <div class="p-5 my-3">
-                        <h2
-                            style="line-height: 30px; font-family: APK protocol, sans-serif; width: 40%; margin: auto; line-height: 37px; font-size: 2.5rem;">
+                        <h2 class="col-12 col-lg-4"
+                            style="line-height: 30px; font-family: APK protocol, sans-serif; margin: auto; line-height: 37px; font-size: 2.5rem;">
                             <b>Start building with Vite</b>
                         </h2>
-                        <p class="text-center m-auto" style="width: 40%;">Prepare for a development environment that can finally keep
+                        <p class="text-center m-auto col-12 col-lg-4" >Prepare for a development environment that can
+                            finally keep
                             pacw with the speed of your mind.</p>
 
                         <div class="mt-5">
@@ -826,12 +955,12 @@
 
                 </div>
 
-                <div class="d-flex flex-row justify-content-around p-5 text-white w-100">
-                    <div class="d-flex flex-ROW gap-5 text-white w-75">
+                <div class="d-flex flex-row justify-content-between p-5 text-white col-12 container row row-cols-1 row-cols-md-2">
+                    <div class="d-md-flex flex-row gap-5 text-white container d-block">
                         <div>
                             <div>
                                 <p class="text-secondary" style="font-size: 10px;"> VITE</p>
-                                <div class="d-flex flex-column g-1 mt-4 fw-bolder" style="font-size: 12px;">
+                                <div class="d-flex flex-column  mt-4 fw-bolder" style="font-size: 12px;">
                                     <p>Guide</p>
                                     <p>Config</p>
                                     <p>Plugins</p>
@@ -842,7 +971,7 @@
                         <div>
                             <div>
                                 <p class="text-secondary" style="font-size: 10px;">RESOURCES</p>
-                                <div class="d-flex flex-column g-1 mt-4 fw-bolder" style="font-size: 12px;">
+                                <div class="d-flex flex-column  mt-4 fw-bolder" style="font-size: 12px;">
                                     <p>Team</p>
                                     <p>Blog</p>
                                     <p>Releases</p>
@@ -853,7 +982,7 @@
                         <div>
                             <div>
                                 <p class="text-secondary" style="font-size: 10px;">VERSIONS</p>
-                                <div class="d-flex flex-column g-1 mt-4 fw-bolder" style="font-size: 12px;">
+                                <div class="d-flex flex-column  mt-4 fw-bolder" style="font-size: 12px;">
                                     <p>Unreleased Docs</p>
                                     <p>Vite 7 Docs</p>
                                     <p>Vite 6 Docs</p>
@@ -866,10 +995,10 @@
                         </div>
                     </div>
 
-                    <div>
+                    <div class="col d-flex justify-content-start justify-content-md-end">
                         <div>
                             <p class="text-secondary" style="font-size: 10px;">VERSIONS</p>
-                            <div class="d-flex flex-column g-1 mt-4 fw-bolder" style="font-size: 12px;">
+                            <div class="d-flex flex-column mt-4 fw-bolder" style="font-size: 12px;">
                                 <p>Github</p>
                                 <p>Discord</p>
                                 <p>Bluesky</p>
@@ -887,8 +1016,7 @@
 
         <section class="secccgo">
             <div class="d-flex flex-column /justify-content-center /text-center text-white p-2 mx-5">
-                <p
-                    style="line-height: 30px; font-family: APK protocol, sans-serif; width: 40%; /margin: auto; line-height: 37px; font-size: 2.;">
+                <p class="col-12" style="line-height: 30px; font-family: APK protocol, sans-serif; /margin: auto; line-height: 37px; font-size: 2.;">
                     © 2019-present VoidZero Inc. and Vite contributors. (faeb7467)
                 </p>
             </div>

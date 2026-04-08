@@ -3,17 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .firs{
     border: 1px solid #39323E;
     background-color: #39323E;
-    /* border-top: none; */
     padding: 1px;
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
-
 .secc{
   background-color: #16171D;
   border: 1px solid #16171D;
@@ -27,14 +24,12 @@
     calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px
   );
 }
-
 .navbar {
-    height: 65px;
+    min-height: 65px;
     width: 98%;
     margin: auto;
+    position: relative;
 }
-
-
 .navbar-nav .nav-link {
     color: white;
     font-size: 13.5px;
@@ -42,19 +37,15 @@
     padding: 6px 12px;
     border-radius: 6px;
 }
-
 .navbar-nav .nav-link:hover {
     color: #AE96F7;
 }
-
 .search-box {
     background: #14121A;
-    /* border: 1px solid #14121A; */
     border-radius: 8px;
     height: 32px;
     padding: 0 5px;
 }
-
 .search-box input {
     background: transparent;
     border: none;
@@ -63,26 +54,12 @@
     width: 80px;
     font-size: 13px;
 }
-
 .search-box input::placeholder {
     color: #606060;
 }
-
-/* .shortcut {
-    font-size: 11px;
-    color: red;
-    border: 1px solid #1f1f1f;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-family: 'JetBrains Mono', monospace;
-} */
-
-
 .dropdown:hover .dropdown-menu{
   display: block;
-  
 }
-
 .dropdown-menu-dark {
     background: #1e1e24;
     border: 1px solid #39323E;
@@ -90,7 +67,6 @@
     padding: 6px;
     color: white;
 }
-
 .dropdown-menu-dark .dropdown-item {
     border-radius: 6px;
     font-size: 12px;
@@ -98,12 +74,10 @@
     color: white;
     padding: 7px 20px;
 }
-
 .dropdown-menu-dark .dropdown-item:hover {
     background: #222228;
     color: #AE96F7;
 }
-
 .dropdown-menu-dark .dropdown-header {
     font-size: 11px;
     font-weight: 700;
@@ -111,12 +85,10 @@
     color: #606060;
     padding: 8px 12px 4px;
 }
-
 .dropdown-divider {
     border-color: #1f1f1f !important;
     margin: 4px 0;
 }
-
 i {
     color: #98989f;
 }
@@ -133,7 +105,6 @@ i {
     calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px
   );
 }
-
 .seccc1{
   background-color: #16171D;
   border: 1px solid #16171D;
@@ -147,7 +118,6 @@ i {
     calc(100% - 0px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px
   );
 }
-
 .seccc2{
   background-color: #16171D;
   border: 1px solid #16171D;
@@ -161,20 +131,17 @@ i {
     calc(100% - 4px) 100%, 0px 100%, 0 calc(100% - 4px), 0 4px
   );
 }
-
 .section2{
   background-color: #39323E;
   border: none;
 }
-
 .vite-btn{
   text-decoration: none;  
   border: 2px solid transparent;
   border-image: url(media/vite-featurepanel-1-background.BHnDg8j4.jpg) 30 round;
   border-radius: 20px; 
-  padding: 4px;
+  padding: 4px; 
 }
-
 .but1{
   font-size: 12px;
   border: 1px solid #39323E;
@@ -185,7 +152,6 @@ i {
   width: 30%;
   text-align: center;
 }
-
 .secccgo{
   background-color: #16171D;
   border: 1px solid #16171D;
@@ -199,7 +165,31 @@ i {
     calc(100% - 4px) 100%, 4px 100%, 0 calc(100% - 4px), 0 4px
   );
 }
-
+.code-box {
+    margin-top: 30px;
+    background: #11111c;
+    border-radius: 12px;
+    width: 100%;
+}
+.tabs {
+    display: flex;
+    gap: 15px;
+    padding: 12px 15px;
+    border-bottom: 1px solid #222;
+    font-size: 13px;
+    color: #aaa;
+    cursor: pointer;
+}
+.tabs span.active {
+    color: #fff;
+    border-bottom: 2px solid #747bff;
+    padding-bottom: 5px;
+}
+.code {
+    padding: 15px;
+    font-family: monospace;
+    color: #a78bfa;
+}
 .back{
   background-image: url(./media/vite-featurepanel-1-background.BHnDg8j4.jpg);
   background-position: center;
@@ -207,7 +197,6 @@ i {
   background-repeat: repeat;
   width: 100%;
 }
-
 .backk{
   background-image: url(./media/vite-featurepanel-4-background.Bnx0RZk-.jpg);
   background-position: center;
@@ -215,18 +204,11 @@ i {
   background-repeat: no-repeat;
   width: 100%;
 }
-
 .pic p{
   color: white;
   font-size: 15px;
   line-height: 20px;
 }
-
-
-
-/* james */
-
-
 .hove:hover{
   border: 2px solid transparent;
   border-image: url(media/vite-featurepanel-1-background.BHnDg8j4.jpg) 30 round;
@@ -246,14 +228,17 @@ i {
   width: 30%;
   text-align: center;
 }
-
+.navbar{
+  position: relative;
+  z-index: 1000;
+  width: 100%;
+}
 .mudas{
   background-image: url(./media/footer-background.BIgtbvhx.jpg);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .but3{
   font-size: 16px;
   border: 1px solid black;
@@ -264,9 +249,15 @@ i {
   width: 32%;
   text-align: center;
 }
-
 .bees{
   color: white;
+}
+.bt1{
+  color: white;
+}
+.bt1:hover{
+  background-color: white;
+  color: black;
 }
 
 @media screen and (max-width: 1007px){
@@ -274,10 +265,16 @@ i {
     width: 96%;
     margin: auto;
   }
-
-
+  .pinn{
+  margin-top: 20px;
+  gap: 80px;
 }
-
+.pin{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+}
 
 @media screen and (max-width: 640px) {
   .beec1{
@@ -285,18 +282,93 @@ i {
     text-align: center;
     margin: auto;
   }
-
   .beec2{
     margin: auto;
+    text-align: center;
   }
   .but{
     width: 60%;
   }
-
   .bide{
     animation-name: moveElement;
     animation-duration: 10s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
   }
+
+  @media (max-width: 1007px) {
+     .scroll{
+       animation: scrollRight 20s linear infinite;   
+      }
+      @keyframes scrollRight {
+        from { transform: translateX(100%); }
+        to   { transform: translateX(-100%); }
+      }
+    }
+    @media (max-width: 640px) {
+      .scroll{
+        animation: scrollRight 15s linear infinite;    
+      }
+       @keyframes scrollRight {
+      from { transform: translateX(100%); }
+      to   { transform: translateX(-100%); }
+    }
+    }
+
+  
+  .pole{
+  display: none;
 }
+.pegg{
+  font-size: 1rem;
+}
+.deed{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.deedd{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  padding: 20px;
+}
+.deeds{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.face{
+  margin: auto;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.section11{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.pinn{
+  margin-top: 20px;
+  gap: 80px;
+}
+.pin{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.void{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+}
+}
+
+
+
+

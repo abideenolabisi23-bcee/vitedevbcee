@@ -280,6 +280,13 @@ i {
   flex-direction: row;
   justify-content: space-around;
 }
+.scroll{
+       animation: scrollRight 20s linear infinite;   
+      }
+      @keyframes scrollRight {
+        from { transform: translateX(100%); }
+        to   { transform: translateX(-100%); }
+      }
 }
 
 @media screen and (max-width: 640px) {
@@ -295,31 +302,14 @@ i {
   .but{
     width: 60%;
   }
-  .bide{
-    animation-name: moveElement;
-    animation-duration: 10s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-  }
-
-  @media (max-width: 1007px) {
-     .scroll{
-       animation: scrollRight 20s linear infinite;   
-      }
-      @keyframes scrollRight {
-        from { transform: translateX(100%); }
-        to   { transform: translateX(-100%); }
-      }
-    }
-    @media (max-width: 640px) {
-      .scroll{
+  .scroll{
         animation: scrollRight 15s linear infinite;    
       }
        @keyframes scrollRight {
       from { transform: translateX(100%); }
       to   { transform: translateX(-100%); }
     }
-    }
+
 
   
   .pole{
@@ -376,7 +366,5 @@ i {
   margin-top: 40px;
 }
 }
-
-
-
+}
 

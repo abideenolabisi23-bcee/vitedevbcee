@@ -274,6 +274,12 @@ i {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.pis{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 }
 
 @media screen and (max-width: 640px) {
@@ -360,6 +366,8 @@ i {
   flex-direction: row;
   justify-content: space-between;
 }
+.pick{
+  display: none;
 .void{
   display: flex;
   width: 100%;

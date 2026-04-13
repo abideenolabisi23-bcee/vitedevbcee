@@ -351,27 +351,23 @@
                         </div>
                     </div>
 
-                    <div class="pole" style="margin-top: 70px;">
-                        <div class="code-box mt-5">
-                            <div class="tabs">
-                                <span class="active">npm</span>
-                                <span>Yarn</span>
-                                <span>pnpm</span>
-                                <span>Bun</span>
-                                <span>Deno</span>
-                            </div>
-                            <div class="code">
-                                $ npm create vite@latest
-                            </div>
-                        </div>
-                    </div>
+                    <div class="code-box ">
+          <div class="tabs">
+            <span class="active" data-cmd="$ npm create vite@latest">npm</span>
+            <span data-cmd="$ yarn create vite">Yarn</span>
+            <span data-cmd="$ pnpm create vite">pnpm</span>
+            <span data-cmd="$ bun create vite">Bun</span>
+            <span data-cmd="$ deno init --npm vite">Deno</span>
+          </div>
+          <div class="code" id="codeDisplay">$ npm create vite@latest</div>
+        </div>
 
 
                 </div>
 
                 <div class="seccc2 col-lg-6 col-12"
                     style=" display: flex; justify-content: center;">
-                    <img src="./media/bee.gif" alt="" width="100%" style="background-color: #15161B;">
+                    <img src="./media/vitamin gif big.gif" alt="" width="100%" style="background-color: #15161B;">
                 </div>
             </div>
         </section>
@@ -381,11 +377,11 @@
                 Trusted by the world's best software teams</div>
         </section>
 
-        <div class="container text-center overflow-hidden " style="background-color: #15161B;">
+        <div class=" container text-center overflow-hidden " style="background-color: #15161B;">
             <div class="secccgo row text-white justify-content-center scroll ">
                 <div class="col"
                     style="border-right: 1px solid #39323E; height: 55px; display: flex; justify-content: center;">
-                    <img src="./media/openai.svg" alt="" class="gray col-lg-5 col-12">
+                    <img src="./media/openai.svg"  alt="" class="gray col-lg-5 col-12">
                 </div>
                 <div class="col"
                     style="border-right: 1px solid #39323E; height: 55px; display: flex; justify-content: center; ">
@@ -456,7 +452,7 @@
                     </div>
 
                     <div class="d-flex justify-content-center">
-                        <img src="./media/JSS.png" width="80%" alt="">
+                        <img src="./media/beee.gif" width="100%" alt="">
                     </div>
                 </div>
 
@@ -865,7 +861,7 @@
 
                 <div class="col p-5" style="display: flex; flex-direction: column; border: 1px solid #39323E; border-bottom: none;">
                     <div class="p-3 d-flex justify-content-center">
-                        <img src="./m" width="60%" alt="" class="gray">
+                        
                     </div>
                 </div>
             </div>
@@ -1079,13 +1075,20 @@
 
 
 
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+        <script>
+            const tabs = document.querySelectorAll(".tabs span");
+      const codeDisplay = document.getElementById("codeDisplay");
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          tabs.forEach((t) => t.classList.remove("active"));
+          tab.classList.add("active");
+          codeDisplay.textContent = tab.dataset.cmd;
+        });
+      });
+        </script>
 </body>
 
 </html>

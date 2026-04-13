@@ -37,6 +37,9 @@
     padding: 6px 12px;
     border-radius: 6px;
 }
+button{
+  transition: all 0.2s ease;
+} 
 .navbar-nav .nav-link:hover {
     color: #AE96F7;
 }
@@ -142,6 +145,50 @@ i {
   border-radius: 20px; 
   padding: 4px; 
 }
+
+.vite-btn:hover{
+  transform: scale(1.1);
+}
+
+.code-box {
+  margin-top: 30px;
+  background: #11111c;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 5rem;
+  border: 1px solid #2a2a30;
+}
+
+.tabs {
+  display: flex;
+  gap: 15px;
+  padding: 12px 15px;
+  border-bottom: 1px solid #222;
+  font-size: 13px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.tabs span {
+  transition: color 0.15s;
+}
+
+.tabs span:hover {
+  color: #ebebeb;
+}
+
+.tabs span.active {
+  color: #fff;
+  border-bottom: 2px solid #747bff;
+  padding-bottom: 5px;
+}
+
+.code {
+  padding: 15px;
+  font-family: monospace;
+  color: #a78bfa;
+}
+
 .but1{
   font-size: 12px;
   border: 1px solid #39323E;
